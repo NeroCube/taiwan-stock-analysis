@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_crontab',
+]
+
+CRONJOBS = [
+    ('*/5 * * * *', 'composeexample.cron.test.my_scheduled_job')
 ]
 
 MIDDLEWARE = [

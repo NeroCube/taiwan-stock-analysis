@@ -1,2 +1,4 @@
 Django == 2.1
+requests==2.18.4
+django-crontab == 0.6.0
 psycopg2
